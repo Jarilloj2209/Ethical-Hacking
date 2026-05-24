@@ -43,7 +43,9 @@ markdown_extensions:
 
 nav:
   - Inicio: index.md
-
+  - Cheatsheets:
+      - Inicio: cheatsheets/index.md
+      - Git: cheatsheets/git.md
   - Fundamentos:
       - Introducción: fundamentals/index.md
       - ¿Qué es el hacking?: fundamentals/que_es_hacking.md
