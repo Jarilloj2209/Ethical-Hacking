@@ -1,0 +1,55 @@
+site_name: Ethical Hacking
+site_description: Knowledge Base de Ethical Hacking
+site_author: Jarillo
+
+theme:
+  name: material
+
+  palette:
+    # Modo oscuro por defecto
+    - scheme: slate
+      primary: black
+      accent: lime
+      toggle:
+        icon: material/weather-sunny
+        name: Cambiar a modo claro
+
+    # Modo claro opcional
+    - scheme: default
+      primary: indigo
+      accent: blue
+      toggle:
+        icon: material/weather-night
+        name: Cambiar a modo oscuro
+
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.instant
+    - navigation.top
+    - search.highlight
+    - search.suggest
+    - content.code.copy
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - tables
+  - toc:
+      permalink: true
+
+
+nav:
+  - Inicio: index.md
+
+  - Fundamentos:
+      - Introducción: fundamentals/index.md
+      - ¿Qué es el hacking?: fundamentals/que_es_hacking.md
+      - ¿Qué es un hacker?: fundamentals/que_es_hacker.md
+      - Tipos de hacker: fundamentals/tipos_de_hacker.md
+      - Conceptos básicos: fundamentals/conceptos_core.md
+      - Superficie de ataque: fundamentals/superficie_ataque.md
+      - Triada CIA: fundamentals/cia.md
+      - Ética y legalidad: fundamentals/etica_legalidad.md
