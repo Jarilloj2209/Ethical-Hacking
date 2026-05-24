@@ -26,6 +26,5 @@ Construir una base de conocimiento técnica y estructurada sobre:
 - Triada CIA
 - Ética y legalidad
 
-## Notas
-
-Este contenido tiene fines educativos y se enfoca en aprendizaje, concientización y seguridad en entornos autorizados.
+!!! warning Nota
+    Este contenido tiene fines educativos y se enfoca en aprendizaje, concientización y seguridad en entornos autorizados.
